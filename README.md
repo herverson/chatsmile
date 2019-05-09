@@ -1,21 +1,19 @@
 # chat-smile
 
-> Chat com Vue
+> Chat com Frontend Vue e firebase
+> Veja o Chat funcionando [site](https://chat-smile-61154.firebaseapp.com)
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# instale as dependências
 npm install
 
-# serve with hot reload at localhost:8080
+# servidor localhost:8080
 npm run dev
 
-# build for production with minification
+# build para produção
 npm run build
 
-# build for production and view the bundle analyzer report
+# build para produção e report
 npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
