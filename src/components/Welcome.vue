@@ -1,13 +1,13 @@
 <template>
   <div class="welcome container">
     <div class="card">
-      <div class="card-content center-align">
-        <h2 class="teal-text">Bem-vindo!</h2>
+      <div class="card-content center-align lime accent-2">
+        <h2 class="cyan-text darken-2">Bem-vindo!</h2>
         <form @submit.prevent="entrarChat">
-          <label for="name">Insira seu nome</label>
-          <input type="text" name="nome" v-model="nome">
+          <label for="name">Nome</label>
+          <input placeholder="Digite seu nome..." type="text" name="nome" v-model="nome" class="validate">
           <p v-if="feedback" class="red-text">{{ feedback }}</p>
-          <button class="btn teal">Entrar!</button>
+          <button class="btn cyan darken-2">Entrar!</button>
         </form>
       </div>
     </div>
