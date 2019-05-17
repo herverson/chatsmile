@@ -4,8 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueChatScroll from 'vue-chat-scroll'
+import EmojiPicker from '@zaichaopan/emoji-picker'
 
 Vue.use(VueChatScroll)
+Vue.use(EmojiPicker)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
